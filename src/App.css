@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.minesweeper-sqaure{
+  border-color:rgba(0,0,0);
+  border-width:1px;
+  border-style:solid;
+  background-color: #61dafb;
+  width:20px;
+  height:20px;
+}
+
+.minesweeper-row{
+  flex-direction: row;
+  border-color:rgba(0,0,0);
+  border-width:1px;
+  width:100%!important;
+  display:flex;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
